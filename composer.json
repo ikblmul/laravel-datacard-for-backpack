@@ -1,0 +1,28 @@
+{
+    "name": "ikblmul/laravel-backpack-data-card",
+    "description": "Simple Card for serving data like data table without losing the backpack search functionality",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ikbal Mulyadi",
+            "email": "ikbalmulyadi246@gmail.com"
+        }
+    ],
+    "homepage": "https://github.com/ikblmul/laravel-backpack-data-card",
+    "keywords": ["Laravel", "Backpack", "Backpack for Laravel", "Addon", "Admin Panel", "Card","Data Table"],
+    "require": {
+        "backpack/crud": "^4.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "CreativeCard\\DataCard\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CreativeCard\\DataCard\\AddonServiceProvider"
+            ]
+        }
+    }
+}
